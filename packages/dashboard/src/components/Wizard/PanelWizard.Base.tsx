@@ -10,7 +10,7 @@ import { getStepContentToShow } from './Wizard.utils';
 const getClassNames = classNamesFunction<IPanelWizardStyleProps, IPanelWizardStyles>();
 
 /**
- * Base component for PanelWizard
+ * Base component for PanelWizard build with Wizard
  */
 export class PanelWizardBase extends React.Component<IPanelWizardProps, {}> {
   public render(): JSX.Element {
